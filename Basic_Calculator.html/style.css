@@ -20,7 +20,7 @@ input {
 }
 .buttons {
     display: grid;
-    grid-template-columns: repeat(4, 75px); /* ⬆️ medium width */
+    grid-template-columns: repeat(4, 75px);
     gap: 12px;
 }
 
