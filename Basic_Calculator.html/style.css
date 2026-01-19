@@ -23,8 +23,6 @@ input {
     grid-template-columns: repeat(4, 75px);
     gap: 12px;
 }
-
-/* Buttons */
 button {
     padding: 18px;        /* ⬆️ medium height */
     font-size: 18px;
