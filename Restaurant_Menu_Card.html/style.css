@@ -1,0 +1,52 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    width: 400px;
+    margin: 50px auto;
+    background-color: black;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+h1, h2, p, li, span {
+    color: yellow;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.tagline {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 20px;
+    border-bottom: 1px solid white;   /* 🔹 line under heading */
+    padding-bottom: 10px;
+}
+
+h2 {
+    margin-top: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;   /* 🔹 section divider */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dashed white;  /* 🔹 item divider */
+}
+
+li:last-child {
+    border-bottom: none;
+}
